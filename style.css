@@ -1,0 +1,174 @@
+/* Base Page Styling */
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: #f5f2ea;
+    color: #3d3d3d;
+    line-height: 1.8;
+    position: relative;
+}
+
+/* Subtle background texture */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: url("images/earthy-texture.jpg") center/cover no-repeat;
+    opacity: 0.18;
+    z-index: -1;
+}
+
+/* Headings */
+h1 {
+    font-size: 3.2rem;
+    text-align: center;
+    margin-top: 3rem;
+    color: #57814c;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #455e24;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+p, li {
+    font-size: 1.15rem;
+    color: #0d5025;
+}
+
+.hero {
+    text-align: center;
+    padding: 4rem 10%;
+}
+
+.hero,
+.resume-section,
+section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2.5rem 8%;
+}
+
+.green-bar {
+    height: 3px;
+    width: 100%;
+    background-color: #556b4f;
+    margin: 1rem 0 2rem 0;
+}
+
+/* Sections */
+section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 3rem 8%;
+    gap: 3rem;
+}
+
+.text {
+    flex: 1;
+}
+
+.image-right {
+    flex: 1;
+    text-align: right;
+}
+
+.image-right img {
+    max-width: 320px;
+    width: 100%;
+}
+
+/* Resume Intro Should Not Be Flex */
+.resume-section.intro {
+    display: block;
+}
+
+/* Two-column resume layout */
+.two-column {
+    display: flex;
+    gap: 3rem;
+    align-items: flex-start;
+}
+
+.experience {
+    flex: 2;
+}
+
+.skills-edu {
+    flex: 1;
+}
+
+/* Job Styling */
+.job {
+    margin-bottom: 2rem;
+}
+
+.job h3 {
+    color: #556b4f;
+    margin-bottom: 0.2rem;
+}
+
+.job em {
+    color: #7c8a6a;
+}
+
+/* Lists */
+ul {
+    margin: 0.5rem 0 1.5rem 1.2rem;
+    padding: 0;
+}
+
+.skills li {
+    list-style: none;
+    padding: 6px 0;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    padding: 12px 26px;
+    background-color: #7c8a6a;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-top: 1.5rem;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #556b4f;
+    transform: translateY(-2px);
+}
+
+/* Tilt Effect */
+.tilt {
+    transform: rotate(-2deg);
+    transition: transform 0.4s ease;
+}
+
+.tilt:hover {
+    transform: rotate(0deg) scale(1.05);
+}
+
+@media (max-width: 768px) {
+
+    section,
+    .resume-section {
+        padding: 2rem 5%;
+    }
+
+    .two-column {
+        flex-direction: column;
+    }
+
+    .hero {
+        padding: 2rem 5%;
+    }
+}
