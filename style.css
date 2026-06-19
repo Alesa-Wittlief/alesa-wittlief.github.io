@@ -233,3 +233,17 @@ ul {
     }
 }
 
+/* Project cards (projects.html) */
+.project-card {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #d8d3c4;
+}
+
+.project-card:last-of-type {
+    border-bottom: none;
+}
+
+.project-card .resume-photo {
+    margin: 1rem 0;
+}

@@ -1,11 +1,12 @@
-This is my personal portfolio website built with HTML and CSS. It highlights my background as a business owner and community builder as I transition into front-end development.
+This is my personal portfolio website built with HTML, CSS. and Python3, which highlights my background as a business owner and community builder while also documenting my projects while transitioning into the Project Management and Coding Worlds.
 
-This project was created to:
+This project highlights my experiences in creating portfolio pieces:
 
 - Practice semantic HTML structure
 - Build responsive layouts using Flexbox
 - Improve my understanding of CSS styling and layout systems
 - Deploy a live website using GitHub Pages
+- Update with new projects as learning develops
 
 The site includes:
 
@@ -13,6 +14,7 @@ The site includes:
 - A resume page with structured experience, skills, and education
 - A responsive layout that adapts to desktop, tablet, and mobile screens
 - Custom styling including a textured background and subtle interactive effects
+- A Page dedicated to completed projects
 
 Technologies Used:
 
@@ -21,6 +23,7 @@ Technologies Used:
 - Flexbox
 - Media Queries
 - GitHub Pages for deployment
+- Python3 
 
 Responsive Design:
 
@@ -39,3 +42,4 @@ Through building this project, I strengthened my understanding of:
 - How the CSS cascade and specificity affect styling
 - Creating clean, organized project structures
 - Deploying a project using GitHub
+- Updating Github with progress in programming languages, ie; Python3, etc.
